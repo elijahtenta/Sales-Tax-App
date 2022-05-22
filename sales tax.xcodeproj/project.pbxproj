@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		454AD6F027E2FC8F00A15B48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454AD6EF27E2FC8F00A15B48 /* AppDelegate.swift */; };
+		454AD6F227E2FC8F00A15B48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454AD6F127E2FC8F00A15B48 /* SceneDelegate.swift */; };
+		454AD6F427E2FC8F00A15B48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454AD6F327E2FC8F00A15B48 /* ViewController.swift */; };
+		454AD6F727E2FC8F00A15B48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454AD6F527E2FC8F00A15B48 /* Main.storyboard */; };
+		454AD6FA27E2FC8F00A15B48 /* sales_tax.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 454AD6F827E2FC8F00A15B48 /* sales_tax.xcdatamodeld */; };
+		454AD6FC27E2FC9000A15B48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454AD6FB27E2FC9000A15B48 /* Assets.xcassets */; };
+		454AD6FF27E2FC9000A15B48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454AD6FD27E2FC9000A15B48 /* LaunchScreen.storyboard */; };
+		454AD70A27E2FC9000A15B48 /* sales_taxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454AD70927E2FC9000A15B48 /* sales_taxTests.swift */; };
+		454AD71427E2FC9000A15B48 /* sales_taxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454AD71327E2FC9000A15B48 /* sales_taxUITests.swift */; };
+		454AD71627E2FC9000A15B48 /* sales_taxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454AD71527E2FC9000A15B48 /* sales_taxUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		454AD70627E2FC9000A15B48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 454AD6E427E2FC8F00A15B48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 454AD6EB27E2FC8F00A15B48;
+			remoteInfo = "sales tax";
+		};
+		454AD71027E2FC9000A15B48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 454AD6E427E2FC8F00A15B48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 454AD6EB27E2FC8F00A15B48;
+			remoteInfo = "sales tax";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		454AD6EC27E2FC8F00A15B48 /* sales tax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sales tax.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		454AD6EF27E2FC8F00A15B48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		454AD6F127E2FC8F00A15B48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		454AD6F327E2FC8F00A15B48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		454AD6F627E2FC8F00A15B48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		454AD6F927E2FC8F00A15B48 /* sales_tax.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sales_tax.xcdatamodel; sourceTree = "<group>"; };
+		454AD6FB27E2FC9000A15B48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		454AD6FE27E2FC9000A15B48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		454AD70027E2FC9000A15B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		454AD70527E2FC9000A15B48 /* sales taxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sales taxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		454AD70927E2FC9000A15B48 /* sales_taxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sales_taxTests.swift; sourceTree = "<group>"; };
+		454AD70F27E2FC9000A15B48 /* sales taxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sales taxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		454AD71327E2FC9000A15B48 /* sales_taxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sales_taxUITests.swift; sourceTree = "<group>"; };
+		454AD71527E2FC9000A15B48 /* sales_taxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sales_taxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		454AD6E927E2FC8F00A15B48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		454AD70227E2FC9000A15B48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		454AD70C27E2FC9000A15B48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		454AD6E327E2FC8F00A15B48 = {
+			isa = PBXGroup;
+			children = (
+				454AD6EE27E2FC8F00A15B48 /* sales tax */,
+				454AD70827E2FC9000A15B48 /* sales taxTests */,
+				454AD71227E2FC9000A15B48 /* sales taxUITests */,
+				454AD6ED27E2FC8F00A15B48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		454AD6ED27E2FC8F00A15B48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				454AD6EC27E2FC8F00A15B48 /* sales tax.app */,
+				454AD70527E2FC9000A15B48 /* sales taxTests.xctest */,
+				454AD70F27E2FC9000A15B48 /* sales taxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		454AD6EE27E2FC8F00A15B48 /* sales tax */ = {
+			isa = PBXGroup;
+			children = (
+				454AD6EF27E2FC8F00A15B48 /* AppDelegate.swift */,
+				454AD6F127E2FC8F00A15B48 /* SceneDelegate.swift */,
+				454AD6F327E2FC8F00A15B48 /* ViewController.swift */,
+				454AD6F527E2FC8F00A15B48 /* Main.storyboard */,
+				454AD6FB27E2FC9000A15B48 /* Assets.xcassets */,
+				454AD6FD27E2FC9000A15B48 /* LaunchScreen.storyboard */,
+				454AD70027E2FC9000A15B48 /* Info.plist */,
+				454AD6F827E2FC8F00A15B48 /* sales_tax.xcdatamodeld */,
+			);
+			path = "sales tax";
+			sourceTree = "<group>";
+		};
+		454AD70827E2FC9000A15B48 /* sales taxTests */ = {
+			isa = PBXGroup;
+			children = (
+				454AD70927E2FC9000A15B48 /* sales_taxTests.swift */,
+			);
+			path = "sales taxTests";
+			sourceTree = "<group>";
+		};
+		454AD71227E2FC9000A15B48 /* sales taxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				454AD71327E2FC9000A15B48 /* sales_taxUITests.swift */,
+				454AD71527E2FC9000A15B48 /* sales_taxUITestsLaunchTests.swift */,
+			);
+			path = "sales taxUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		454AD6EB27E2FC8F00A15B48 /* sales tax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 454AD71927E2FC9000A15B48 /* Build configuration list for PBXNativeTarget "sales tax" */;
+			buildPhases = (
+				454AD6E827E2FC8F00A15B48 /* Sources */,
+				454AD6E927E2FC8F00A15B48 /* Frameworks */,
+				454AD6EA27E2FC8F00A15B48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sales tax";
+			productName = "sales tax";
+			productReference = 454AD6EC27E2FC8F00A15B48 /* sales tax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		454AD70427E2FC9000A15B48 /* sales taxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 454AD71C27E2FC9000A15B48 /* Build configuration list for PBXNativeTarget "sales taxTests" */;
+			buildPhases = (
+				454AD70127E2FC9000A15B48 /* Sources */,
+				454AD70227E2FC9000A15B48 /* Frameworks */,
+				454AD70327E2FC9000A15B48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				454AD70727E2FC9000A15B48 /* PBXTargetDependency */,
+			);
+			name = "sales taxTests";
+			productName = "sales taxTests";
+			productReference = 454AD70527E2FC9000A15B48 /* sales taxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		454AD70E27E2FC9000A15B48 /* sales taxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 454AD71F27E2FC9000A15B48 /* Build configuration list for PBXNativeTarget "sales taxUITests" */;
+			buildPhases = (
+				454AD70B27E2FC9000A15B48 /* Sources */,
+				454AD70C27E2FC9000A15B48 /* Frameworks */,
+				454AD70D27E2FC9000A15B48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				454AD71127E2FC9000A15B48 /* PBXTargetDependency */,
+			);
+			name = "sales taxUITests";
+			productName = "sales taxUITests";
+			productReference = 454AD70F27E2FC9000A15B48 /* sales taxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		454AD6E427E2FC8F00A15B48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					454AD6EB27E2FC8F00A15B48 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					454AD70427E2FC9000A15B48 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 454AD6EB27E2FC8F00A15B48;
+					};
+					454AD70E27E2FC9000A15B48 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 454AD6EB27E2FC8F00A15B48;
+					};
+				};
+			};
+			buildConfigurationList = 454AD6E727E2FC8F00A15B48 /* Build configuration list for PBXProject "sales tax" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 454AD6E327E2FC8F00A15B48;
+			productRefGroup = 454AD6ED27E2FC8F00A15B48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				454AD6EB27E2FC8F00A15B48 /* sales tax */,
+				454AD70427E2FC9000A15B48 /* sales taxTests */,
+				454AD70E27E2FC9000A15B48 /* sales taxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		454AD6EA27E2FC8F00A15B48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454AD6FF27E2FC9000A15B48 /* LaunchScreen.storyboard in Resources */,
+				454AD6FC27E2FC9000A15B48 /* Assets.xcassets in Resources */,
+				454AD6F727E2FC8F00A15B48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		454AD70327E2FC9000A15B48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		454AD70D27E2FC9000A15B48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		454AD6E827E2FC8F00A15B48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454AD6F427E2FC8F00A15B48 /* ViewController.swift in Sources */,
+				454AD6F027E2FC8F00A15B48 /* AppDelegate.swift in Sources */,
+				454AD6FA27E2FC8F00A15B48 /* sales_tax.xcdatamodeld in Sources */,
+				454AD6F227E2FC8F00A15B48 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		454AD70127E2FC9000A15B48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454AD70A27E2FC9000A15B48 /* sales_taxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		454AD70B27E2FC9000A15B48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454AD71427E2FC9000A15B48 /* sales_taxUITests.swift in Sources */,
+				454AD71627E2FC9000A15B48 /* sales_taxUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		454AD70727E2FC9000A15B48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 454AD6EB27E2FC8F00A15B48 /* sales tax */;
+			targetProxy = 454AD70627E2FC9000A15B48 /* PBXContainerItemProxy */;
+		};
+		454AD71127E2FC9000A15B48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 454AD6EB27E2FC8F00A15B48 /* sales tax */;
+			targetProxy = 454AD71027E2FC9000A15B48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		454AD6F527E2FC8F00A15B48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				454AD6F627E2FC8F00A15B48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		454AD6FD27E2FC9000A15B48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				454AD6FE27E2FC9000A15B48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		454AD71727E2FC9000A15B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		454AD71827E2FC9000A15B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		454AD71A27E2FC9000A15B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JFWQ9YJLZC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "sales tax/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Teso.sales-tax";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		454AD71B27E2FC9000A15B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JFWQ9YJLZC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "sales tax/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Teso.sales-tax";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		454AD71D27E2FC9000A15B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JFWQ9YJLZC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Teso.sales-taxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sales tax.app/sales tax";
+			};
+			name = Debug;
+		};
+		454AD71E27E2FC9000A15B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JFWQ9YJLZC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Teso.sales-taxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sales tax.app/sales tax";
+			};
+			name = Release;
+		};
+		454AD72027E2FC9000A15B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JFWQ9YJLZC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Teso.sales-taxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sales tax";
+			};
+			name = Debug;
+		};
+		454AD72127E2FC9000A15B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JFWQ9YJLZC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Teso.sales-taxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sales tax";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		454AD6E727E2FC8F00A15B48 /* Build configuration list for PBXProject "sales tax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454AD71727E2FC9000A15B48 /* Debug */,
+				454AD71827E2FC9000A15B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		454AD71927E2FC9000A15B48 /* Build configuration list for PBXNativeTarget "sales tax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454AD71A27E2FC9000A15B48 /* Debug */,
+				454AD71B27E2FC9000A15B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		454AD71C27E2FC9000A15B48 /* Build configuration list for PBXNativeTarget "sales taxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454AD71D27E2FC9000A15B48 /* Debug */,
+				454AD71E27E2FC9000A15B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		454AD71F27E2FC9000A15B48 /* Build configuration list for PBXNativeTarget "sales taxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				454AD72027E2FC9000A15B48 /* Debug */,
+				454AD72127E2FC9000A15B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		454AD6F827E2FC8F00A15B48 /* sales_tax.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				454AD6F927E2FC8F00A15B48 /* sales_tax.xcdatamodel */,
+			);
+			currentVersion = 454AD6F927E2FC8F00A15B48 /* sales_tax.xcdatamodel */;
+			path = sales_tax.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 454AD6E427E2FC8F00A15B48 /* Project object */;
+}
